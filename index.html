@@ -9,7 +9,9 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="mediaQueryFor576.css">
+    <link rel="stylesheet" href="mediaQueryFor992.css">
+    <link rel="stylesheet" href="mediaQueryFor1200.css">
 </head>
 
 <body>
@@ -33,15 +35,14 @@
                 </ul>
             </div>
             <div class="rightDiv">
-                <button class="getFreeBtn">Get Free Consultent</button>
-                <div class="btnShadow"></div>
+                <button class="learnMoreBtn">Get Free Consultent
+                    <div class="learnMoreBtnShadow"></div>
+                </button> 
             </div>
-
-
         </nav>
 
-        <section class="heroSection">
-            <div class="leftHeroSection">
+        <section class="heroSection  ">
+            <div class="leftHeroSection container">
                 <p class="getText">get every single solutions.</p>
                 <h1 class="iamText">I'm Designer Haris F. Watson</h1>
                 <p class="aboutText">jhorem rfpsum golor sidt amet, consectetur adipiscing elit, eiusmod tempor
@@ -51,7 +52,9 @@
                     <button class="learnMoreBtn">Learn More
                         <div class="learnMoreBtnShadow"></div>
                     </button>
-                    <button class="hireMeBtn">Hire Me</button>
+                    <button class="hireMeBtn"> Hire Me
+                        <div class="hireMeBtnShadow"></div>
+                    </button>
                 </div>
             </div>
         </section>
@@ -82,10 +85,13 @@
             </div>
         </section>
 
-        <section class="container serviceDiv">
-            <h1 class="allH">What Services you will Get from me!</h1>
+        <section class="serviceDiv">
+            <div class="container allH992Container">
+                <h1 class="allH allH992">What Services you will Get from me!</h1>
+            </div>
         </section>
-        <div class="container cardsDiv">
+
+        <div class="container cardsDiv serviceCardFor576">
             <div class="card serviceCard">
                 <div class="cardimg"><i class="fa-solid fa-bezier-curve"></i></div>
                 <div class="cardTitle">UI/UX Design</div>
@@ -114,12 +120,12 @@
                     process andisei impro are of vquality.
                 </p>
                 <div class="cardhoverDiv"></div>
-            </div>
+            </div>            
         </div>
 
-        <section class="container Service_Div">
-            <div class="serviceHeaderDiv">
-                <h1 class="allH">What Services you will Get from me!</h1>
+        <section class=" Service_Div">
+            <div class="serviceHeaderDiv container">
+                <h1 class="allH allH992">What Services you will Get from me!</h1>
                 <ul class="serviceUl">
                     <li class="li_item">All <div class="li_underline li_item_all"></div>
                     </li>
@@ -134,7 +140,7 @@
                 </ul>
             </div>
 
-            <div class="serviceImgagesDiv">
+            <div class="serviceImgagesDiv container">
                 <div class="imgRow">
                     <div class="leftImg">
                         <img src="img/services1.png.webp" alt="">
@@ -144,13 +150,14 @@
                         <img src="img/services3.png.webp" alt="">
                     </div>
                 </div>
-                <div class="imgRow">
+                <div class="imgRow downImgRow">
                     <img src="img/services4.png.webp" alt="">
                     <img src="img/services5.png.webp" alt="">
                     <img class="lastImg" src="img/services6.png.webp" alt="">
                 </div>
             </div>
         </section>
+
 
         <section class="contactDiv">
             <div class="contactInnerDiv container">
@@ -168,9 +175,9 @@
             </div>
         </section>
 
-        <section class="container Service_Div">
-            <div class="serviceHeaderDiv">
-                <h1 class="allH">Some Possitive Feedback That Encourage Us</h1>
+        <section class=" container Service_Div">
+            <div class="serviceHeaderDiv sliderServiceDiv">
+                <h1 class="allH allH992 somePositive">Some Possitive Feedback That Encourage Us</h1>
                 <span class="sliderControl">
                     <i class="fa-solid fa-chevron-left"></i>
                     <i class="fa-solid fa-chevron-right"></i>
@@ -204,7 +211,7 @@
                         aliqua. Ut imminim restai veniam, quis nostrud.
                     </p>
                 </div>
-                <div class="card personCard">
+                <div class="card personCard personCard3 ">
                     <div class="cardheader">
                         <div class=""><img src="img/blog3.png.webp" alt=""></div>
                         <div class="cardTitlesDiv">
@@ -221,7 +228,7 @@
             </div>
         </section>
 
-        <div class="brandsDiv">
+        <div class="brandsDiv container">
             <div class="brandsInnerDiv">
                 <img src="img/brand1.png (1).webp" alt="">
                 <img src="img/brand2.png.webp" alt="">
